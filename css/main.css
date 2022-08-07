@@ -1,0 +1,25 @@
+p{
+    display: inline-block;
+    border: 1px solid #000;
+    animation: anim 13s ease 0.1s infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes anim{
+    0%{
+        color: red;
+    }
+    10%{
+        color: #000;
+    }
+    30%{
+        color: blue;
+    }
+    70%{
+        color: brown;
+    }
+    100%{
+        color: cornflowerblue;
+        background-color: chartreuse;
+    }
+} 
